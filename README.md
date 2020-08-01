@@ -10,9 +10,6 @@
 <code>./myftpserver <PORT></code>
 * Client:
 <code>./myftpclient <SERVER_IP> <PORT> <LIST|GET|PUT> <FILE_TO_GET|FILE_TO_PUT></code>
- 
-##### The client-server application using TCP
-![Socket](Socket.png "Socket")
 
 * * * 
 
