@@ -10,7 +10,7 @@
 <code>./myftpserver <PORT></code>
 * Client:
 <code>./myftpclient <SERVER_IP> <PORT> <LIST|GET|PUT> <FILE_TO_GET|FILE_TO_PUT></code>
-![Socket]:(https://github.com/CatherineZHANG0980/Computer-Networking/blob/master/project-1/Socket.png)
+![Socket](https://github.com/CatherineZHANG0980/Computer-Networking/blob/master/project-1/Socket.png)
 
 * * * 
 
@@ -21,6 +21,7 @@
 ##### Usage
 * Server: <code>./myftpserver serverconfig.txt</code>
 * Client: <code>./myftpclient clientconfig.txt <list|get|put> <file></code>
+ 
 ##### Reference
 [Erasure Coding]:https://www.backblaze.com/blog/reed-solomon/
  
@@ -41,6 +42,6 @@
  * Decide whether to accept or reject packets
  
 ##### Usage
- * <code>./nat<IP><LAN><MASK><bucket size><fill rate></code> 
+ * Run <code>./nat<IP><LAN><MASK><bucket size><fill rate></code> 
  
-![NAT]:(https://github.com/CatherineZHANG0980/Computer-Networking/blob/master/project-2/NAT.png)
+![NAT](https://github.com/CatherineZHANG0980/Computer-Networking/blob/master/project-2/NAT.png)
