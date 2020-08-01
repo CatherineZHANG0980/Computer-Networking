@@ -41,7 +41,7 @@
  * Decide whether to accept or reject packets
  
 ##### Usage
- * <code>./nat </IP> <LAN> <MASK> <BUCKET SIZE> <FILL RATE></code>
+ * <code>./nat <IP_ADDR> <LAN> <MASK> <BUCKET SIZE> <FILL RATE></code>
 
 ##### NAT
 ![NAT](NAT.png "NAT")
