@@ -12,7 +12,7 @@
 <code>./myftpclient <SERVER_IP> <PORT> <LIST|GET|PUT> <FILE_TO_GET|FILE_TO_PUT></code>
  
 ##### The client-server application using TCP
-![Socket](project-1/Socket.jpg | width=180)
+![Socket](Socket.png "Socket")
 
 * * * 
 
@@ -47,4 +47,4 @@
  * <code>./nat <IP> <LAN> <MASK> <BUCKET SIZE> <FILL RATE></code>
 
 ##### NAT
-![NAT](project-3/NAT.jpg "NAT")
+![NAT](NAT.png "NAT")
