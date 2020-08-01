@@ -1,0 +1,18 @@
+CC = gcc
+LIB = -lsocket -lnsl myftp.o -lpthread -lisal
+
+all: myftp myftpclient myftpserver
+
+myftp: myftp.c
+	${CC} -c myftp.c
+
+myftpserver: myftpserver.c
+	${CC} -o myftpserver myftpserver.c ${LIB}
+
+myftpclient: myftpclient.c
+	${CC} -o myftpclient  myftpclient.c ${LIB}
+
+clean:
+	rm myftp.o
+	rm myftpserver
+	rm myftpclient
