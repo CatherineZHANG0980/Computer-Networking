@@ -37,6 +37,6 @@
  * Decide whether to accept or reject packets
  
 ##### Usage
- * <code>./nat <IP> <LAN> <MASK> <bucket size> <fill rate></code>
+ * <code>./nat<IP><LAN><MASK><bucket size><fill rate></code>
  
  
