@@ -10,7 +10,9 @@
 <code>./myftpserver <PORT></code>
 * Client:
 <code>./myftpclient <SERVER_IP> <PORT> <LIST|GET|PUT> <FILE_TO_GET|FILE_TO_PUT></code>
-![Socket](project-1/Socket.jpg "Socket")
+ 
+##### The client-server application using TCP
+![Socket](project-1/Socket.jpg | width=180)
 
 * * * 
 
@@ -42,6 +44,7 @@
  * Decide whether to accept or reject packets
  
 ##### Usage
- * <code>./nat <IP> <LAN> <MASK> <BUCKET SIZE> <FILL RATE></code> 
- 
-![NAT](project-2/NAT.jpg "NAT")
+ * <code>./nat <IP> <LAN> <MASK> <BUCKET SIZE> <FILL RATE></code>
+
+##### NAT
+![NAT](project-3/NAT.jpg "NAT")
